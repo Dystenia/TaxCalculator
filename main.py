@@ -1,7 +1,11 @@
-﻿"""Steuerrechner – Einstiegspunkt."""
+"""Steuerrechner – Einstiegspunkt für die Weboberfläche."""
 
-def main():
-    print("Steuerrechner wird entwickelt.")
+from web import run_server
+
+
+def main() -> None:
+    run_server()
+
 
 if __name__ == "__main__":
     main()
